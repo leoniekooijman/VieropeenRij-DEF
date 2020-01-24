@@ -1,25 +1,44 @@
+body {
+    background-color: lightgreen;
+}
+
 table {
-    width: 700px;
-    height: 150px;
-    border: 5px solid darkolivegreen;
-    background-color: darkolivegreen;
+    width: 125px;
+    height: 550px;
+    border: 5px solid slategrey;
+    background-color: slategrey;
 }
 
 
 td {
     border: 2px solid black;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 20px;
+    height: 35px;
+    border-radius: 85%;
 }
 
 .coin {
     background-color: white;
 }
 
-.coin:hover {
-    background-color: gray;
+#yellow {
+    background-color: yellow;
+    height: 35px;
+    width: 60px;
 }
 
+#yellow:hover{
+    background-color: orange;
+}
+
+#red {
+    background-color: red;
+    height: 35px;
+    width: 60px;
+}
+
+#red:hover{
+    background-color:darkred;
+}
 
 
